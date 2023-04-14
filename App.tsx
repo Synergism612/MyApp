@@ -11,7 +11,8 @@ import React, {Component} from 'react';
 // import Index from './src/2Core/07_Image';
 // import Index from './src/2Core/08_TextInput';
 // import Index from './src/2Core/09_Touchable';
-import Index from './src/2Core/10_Scrolliew';
+// import Index from './src/2Core/10_Scrolliew';
+import Index from './src/2Core/11_SectionList';
 export default class App extends Component {
   render() {
     return <Index />;
