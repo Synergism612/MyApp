@@ -75,7 +75,7 @@ type stateType = {
   selectedID: string | null;
 };
 
-export default class index extends Component<propsType, stateType> {
+export default class Index extends Component<propsType, stateType> {
   constructor(props: propsType) {
     super(props);
     this.state = {isFresh: false, selectedID: null};
