@@ -14,8 +14,22 @@ import React, {Component} from 'react';
 // import Index from './src/2Core/10_Scrolliew';
 // import Index from './src/2Core/11_SectionList';
 import Index from './src/2Core/12_FlatList';
+// import Index from './src/2Core/13_Animated';
+// import Index from './src/4Custom/21_Loading';
+
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+
+const Stack = createNativeStackNavigator();
+
 export default class App extends Component {
   render() {
-    return <Index />;
+    return (
+      <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen name="Home" component={Index} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    );
   }
 }
