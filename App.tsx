@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {NavigationContainer} from '@react-navigation/native';
 // import Index from './src/1Layout/01_StyleSheet';
 // import Index from './src/1Layout/02_FlexBox/FlexDirection';
 // import Index from './src/1Layout/02_FlexBox/JustifyContent';
@@ -17,8 +18,8 @@ import React, {Component} from 'react';
 // import Index from './src/2Core/13_Animated';
 // import Index from './src/4Custom/21_Loading';
 
-import Index from './src/5Router/22_StackNavigator';
-import {NavigationContainer} from '@react-navigation/native';
+// import Index from './src/5Router/22_StackNavigator';
+import Index from './src/5Router/23_BottomTab';
 
 export default class App extends Component {
   render() {
